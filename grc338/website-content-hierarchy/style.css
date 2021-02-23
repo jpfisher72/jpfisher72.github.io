@@ -3,6 +3,7 @@
 body {
     background-color: #E5DFDF;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #2B2420;
 }
 
 header {
@@ -52,11 +53,12 @@ li {
 h1 {
     text-align: center;
     font-size: 3em;
+    background-color: #C17474;
 }
 
 h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 h3 {
@@ -78,7 +80,7 @@ h3 {
     margin-top: 0.5em;
     margin-bottom: 0em;
     margin-right: 2em;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .menu_caption {
