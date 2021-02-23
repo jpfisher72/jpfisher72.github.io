@@ -74,14 +74,14 @@ h3 {
     margin-top: 2em;
 }
 
-.menu_p{
+.menu p{
     margin-top: 0.5em;
     margin-bottom: 0em;
     margin-right: 2em;
     font-size: 1.5em;
 }
 
-.menu_section_caption {
+.menu_caption {
     text-align: center;
     font-size: 1.5em;
     margin-left: 1.5em;
