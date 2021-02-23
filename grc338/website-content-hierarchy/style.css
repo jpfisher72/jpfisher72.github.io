@@ -1,7 +1,100 @@
 /*CSS DOCUMENT*/
 
-img {
-    width: 100%; 
+body {
+    background-color: #E5DFDF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr 1fr;
+}
+
+header img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+nav {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    justify-self: center;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 2.5em;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #888888;
+}
+
+figure img {
+    width: 100%
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+h3 {
+    margin: 1.5em 0em 0em 0em;
+    font-size: 1.5em
+}
+
+.about p, .home p {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+}
+
+.about figure img{
+    margin-top: 2em;
+}
+
+.menu_p{
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    margin-right: 2em;
+    font-size: 1.5em;
+}
+
+.menu_section_caption {
+    text-align: center;
+    font-size: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.location_items h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.location_items p{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0.5em;
+}
